@@ -9,10 +9,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Silas Mahler",
+  title: "Hallo, ich bin Silas Mahler",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Ich bin seit 2014 in der Informatik tätig und seit 2015 in der professionellen Softwareentwicklung 🚀 " +
+    "Meine Schwerpunkte sind DevOps, Backend-Entwicklung mit Java, sowie Teamleitung und den Aufbau des eigenen Startups, der KreInn GmbH. " +
+    "In den letzten Jahren war ich neben der Forschung in einem Großkonzern im Open Source Bereich und als Consultant tätig. " +
+    "Nebenbei bin ich ehrenamtlich tätig, leite eine Hackathon-Organisation und "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,13 +25,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/silasmahler",
+  linkedin: "https://www.linkedin.com/in/silas-mahler-b1b8aa127/",
+  gmail: "info@silas-mahler.de",
+  gitlab: "https://gitlab.com/silasmahler",
+  facebook: "https://www.facebook.com/silas.mahler",
+  twitter: "https://twitter.com/SilasMahler",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -36,15 +38,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Womit ich arbeite",
+  subTitle: "Eine Auswahl meiner häufig verwendeten Technologien",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Entwicklung und Automatisierung von Workflows und Techn-Stacks mit Docker, CI/CD-Servern und Softwarekomponenten"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Java Entwicklung mit dem Spring-Framework und Open Source Contributions"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Digitalisierung von Unternehmen und rapide Entwicklung mit der AWS-Cloud und Serverless-Architekturen"
     )
   ],
 
@@ -53,39 +55,44 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    }
+    ,
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "vaadin",
+      fontAwesomeClassname: "fab fa-vaadin"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -93,16 +100,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "cloud-providers",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -114,24 +117,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "FH Dortmund",
+      logo: require("./assets/images/fhdo-logo.png"),
+      subHeader: "Master of Science in Informatik",
+      duration: "Oktober 2018 - heute",
+      desc: "Master-Studium der Informatik",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Weiterführendes Studium, vertiefende Module: Compilerbau, Nebenläufige Programmierung, Machine Learning und weitere",
+        "Forschung- und Entwicklungarbeit zum Thema \"Anwendung von DevOps Prinzipien im Kontext der Entwicklung mit Datenbanken\""
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "FH Dortmund",
+      logo: require("./assets/images/fhdo-logo.png"),
+      subHeader: "Bachelor of Science in Informatik",
+      duration: "September 2014 - September 2018",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Bachelor-Studium der Informatik",
+      descBullets: ["Abschlussarbeit mit Abschlussnote 1,3 zum Thema \"Lokale Entwicklungsumgebung mit Docker\"",
+        "Arbeit in der Forschungsgruppe SEELab der FH Dortmund des Idial-Institutes"]
     }
   ]
 };
@@ -285,7 +289,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
