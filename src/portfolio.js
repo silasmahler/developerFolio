@@ -380,7 +380,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Kontaktieren Sie mich ☎️"),
   subtitle:
     "Wenn Sie ein Projekt besprechen wollen oder sich über Technologien austauschen möchten, kontaktieren Sie mich gerne! ",
   number: "",
