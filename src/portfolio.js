@@ -15,10 +15,10 @@ const greeting = {
     "Ich bin seit 2014 in der Informatik tätig und seit 2015 in der professionellen Softwareentwicklung 🚀 " +
     "Meine Schwerpunkte sind DevOps, Backend-Entwicklung mit Java, sowie Teamleitung und den Aufbau des eigenen Startups, der KreInn GmbH. " +
     "In den letzten Jahren war ich neben der Forschung in einem Großkonzern im Open Source Bereich und als Consultant tätig. " +
-    "Nebenbei bin ich ehrenamtlich tätig, leite eine Hackathon-Organisation und "
+    "Nebenbei bin ich ehrenamtlich tätig, leite eine Hackathon-Organisation und mache einen Tech-Podcast."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -143,11 +143,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "DevOps", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -167,32 +167,54 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Geschäftsführer",
+      company: "KreInn GmbH",
+      companylogo: require("./assets/images/kreinn.png"),
+      date: "September 2019 – heute",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Aufbau eines IT-Startups zur Entwicklung verschiedenster Service-, Entwicklungs- und Beratungsdienstleistungen.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Geschäftsführer",
+        "Technische Administration, Aufbau der IT- & Infrastruktur"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Consultant AWS/IMS",
+      company: "AppsAssociates GmbH",
+      companylogo: require("./assets/images/appsassociates.png"),
+      date: "Januar 2021 – heute",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Beratung im Bereich Amazon Web Services und Infrastruktur & Managed Services",
+      descBullets: [
+        "Consultant",
+        "Beratung im Bereich AWS & IMS"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Softwarentwickler Open Source",
+      company: "Adesso SE",
+      companylogo: require("./assets/images/adesso.png"),
+      date: "September 2017 – Oktober 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Aufbau der Open Source Präsenz der adesso SE und Entwicklung in verschiedenen Kundenprojekten sowie Beratung im Hackathon-Bereich.",
+      descBullets: [
+        "Open Source",
+        "Diverse Kundenprojekte",
+        "Durchführung und Beratung verschiedener Hackathons"
+      ]
+    },
+    {
+      role: "Studentische Hilfskraft Forschung",
+      company: "Fachhochschule Dortmund",
+      companylogo: require("./assets/images/fhdo-logo.png"),
+      date: "September 2017 – Oktober 2020",
+      desc:
+        "Studentische Hilfskraft in der Forschung der FH Dortmund des Fachbereichs 4 (Informatik) in der Forschungsgruppe SEELab (seit Januar 2017 dem IDIAL Institut angehörig).",
+      descBullets: [
+        "Forschung",
+        "Projekt-Plattform Quartiersnetz",
+        "Durchführung verschiedener Hackathons zusammen mit der FH Dortmund"
+      ]
     }
   ]
 };
@@ -208,29 +230,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Weitere große Projekte",
+  subtitle: "Organisationen, die ich aufgebaut habe oder in denen ich mitwirke",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dohack.png"),
+      projectName: "DO!Hack",
+      projectDesc: "Unsere erfolgreiche Hackathon-Organisation seit 2015",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Webseite besuchen",
+          url: "https://dohack.io/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/adeprecated.png"),
+      projectName: "Already Deprecated Stream",
+      projectDesc: "Ein Tech-Stream mit einigen herausragenden Kollegen",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Webseite besuchen",
+          url: "https://beacons.page/alreadydeprecated"
         }
       ]
     }
@@ -297,7 +319,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -322,7 +344,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -341,18 +363,18 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Besucht unseren Tech-Podcast! :)",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://beacons.page/alreadydeprecated"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -360,15 +382,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Wenn Sie ein Projekt besprechen wollen oder sich über Technologien austauschen möchten, kontaktieren Sie mich gerne! ",
+  number: "",
+  email_address: "info@silas-mahler.de"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "silasmahler", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

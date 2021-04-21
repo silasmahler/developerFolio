@@ -1,7 +1,7 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.css";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
+import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
@@ -12,7 +12,7 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
   useEffect(() => {
     const getRepoData = () => {
@@ -47,7 +47,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">Open Source Projekte</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               return (
@@ -56,7 +56,7 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={"Mehr Projekte"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}

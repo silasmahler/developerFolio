@@ -1,11 +1,11 @@
 ﻿import React from "react";
 import "./GithubProfileCard.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo} from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 import emoji from "react-easy-emoji";
-import {Fade} from "react-reveal";
+import { Fade } from "react-reveal";
 
-export default function GithubProfileCard({prof}) {
+export default function GithubProfileCard({ prof }) {
   if (prof.hireable === true) {
     prof.hireable = "Yes";
   } else {
@@ -14,7 +14,7 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+        <h1 className="prof-title">Kontaktieren Sie mich!</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
@@ -40,11 +40,6 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
-            <div className="opp-div">
-              <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
-              </span>
-            </div>
             <SocialMedia />
           </div>
           <div className="image-content-profile">
