@@ -42,7 +42,7 @@ const skillsSection = {
   subTitle: "Eine Auswahl meiner häufig verwendeten Technologien",
   skills: [
     emoji(
-      "⚡ Entwicklung und Automatisierung von Workflows und Techn-Stacks mit Docker, CI/CD-Servern und Softwarekomponenten"
+      "⚡ Entwicklung und Automatisierung von Workflows und Tech-Stacks mit Docker, CI/CD-Servern und Softwarekomponenten"
     ),
     emoji("⚡ Java Entwicklung mit dem Spring-Framework und Open Source Contributions"),
     emoji(
