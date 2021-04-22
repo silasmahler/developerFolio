@@ -1,7 +1,10 @@
-fs = require("fs");
-const https = require("https");
-process = require("process");
-require("dotenv").config();
+import fs from "fs";
+import  https1 from "https";
+const https = https1;
+import process from "process";
+import dotenv1 from "dotenv";
+
+const dotenv = dotenv1.config(); 
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
