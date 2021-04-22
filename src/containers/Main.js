@@ -1,8 +1,9 @@
 import "./Main.css";
-import React, { Component, lazy } from "react";
+import React, { Component, lazy, Suspense} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import {StyleProvider} from "../contexts/StyleContext";
+import Loading from "./loading/Loading";
 
 const WorkExperience = lazy(() => import(  "./workExperience/WorkExperience"));
 const Projects = lazy(() => import(  "./projects/Projects"));
@@ -44,6 +45,7 @@ export default class Main extends Component {
         >
           <Header />
           <Greeting />
+          <Suspense fallback={Loading}>
           <Skills />
           <Education />
           <WorkExperience />
@@ -53,7 +55,8 @@ export default class Main extends Component {
           <Podcast />
           <Profile />
           <Footer />
-          <Top />
+            <Top />
+          </Suspense>
         </StyleProvider>
       </div>
     );
