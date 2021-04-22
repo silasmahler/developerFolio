@@ -1,18 +1,19 @@
-import React, {Component} from "react";
+import "./Main.css";
+import React, { Component, lazy } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
-import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
-import StartupProject from "./StartupProjects/StartupProject";
-import Footer from "../components/footer/Footer";
-import Podcast from "./podcast/Podcast";
-import Education from "./education/Education";
-import Top from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
-import "./Main.css";
-import Profile from "./profile/Profile";
+
+const WorkExperience = lazy(() => import(  "./workExperience/WorkExperience"));
+const Projects = lazy(() => import(  "./projects/Projects"));
+const StartupProject = lazy(() => import(  "./StartupProjects/StartupProject"));
+const Footer = lazy(() => import(  "../components/footer/Footer"));
+const Podcast = lazy(() => import(  "./podcast/Podcast"));
+const Education = lazy(() => import(  "./education/Education"));
+const Top = lazy(() => import(  "./topbutton/Top"));
+const Twitter = lazy(() => import(  "./twitter-embed/twitter"));
+const Profile = lazy(() => import(  "./profile/Profile"));
+const Skills = lazy(() => import ( "./skills/Skills" ));
 
 export default class Main extends Component {
   constructor(props) {
