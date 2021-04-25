@@ -207,7 +207,7 @@ const workExperiences = {
       role: "Studentische Hilfskraft Forschung",
       company: "Fachhochschule Dortmund",
       companylogo: require("./assets/images/fhdo-logo.png"),
-      date: "September 2017 – Oktober 2020",
+      date: "Juli 2015 – August 2017",
       desc:
         "Studentische Hilfskraft in der Forschung der FH Dortmund des Fachbereichs 4 (Informatik) in der Forschungsgruppe SEELab (seit Januar 2017 dem IDIAL Institut angehörig).",
       descBullets: [
