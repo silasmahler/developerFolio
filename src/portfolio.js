@@ -13,7 +13,7 @@ const greeting = {
   title: "Hallo, ich bin Silas Mahler",
   subTitle: emoji(
     "Ich bin seit 2014 in der Informatik tätig und seit 2015 in der professionellen Softwareentwicklung 🚀 " +
-    "Meine Schwerpunkte sind DevOps, Backend-Entwicklung mit Java, sowie Teamleitung und den Aufbau des eigenen Startups, der KreInn GmbH. " +
+    "Meine Schwerpunkte sind DevOps, Backend-Entwicklung mit Java, sowie Teamleitung und der Aufbau des eigenen Startups, der KreInn GmbH. " +
     "In den letzten Jahren war ich neben der Forschung in einem Großkonzern im Open Source Bereich und als Consultant tätig. " +
     "Nebenbei bin ich ehrenamtlich tätig, leite eine Hackathon-Organisation und mache einen Tech-Podcast."
   ),
