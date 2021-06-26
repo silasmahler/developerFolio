@@ -124,7 +124,7 @@ const educationInfo = {
       desc: "Master-Studium der Informatik",
       descBullets: [
         "Weiterführendes Studium, vertiefende Module: Compilerbau, Nebenläufige Programmierung, Machine Learning und weitere",
-        "Forschungs- und Entwicklungsarbeit zum Thema \"Anwendung von DevOps Prinzipien im Kontext der Entwicklung mit Datenbanken\""
+        "Forschungs- und Entwicklungsarbeit zum Thema \"Konzept zur Optimierung automatisch bereitgestellter Cloud-Umgebungen anhand horizontaler Metriken\""
       ]
     },
     {
