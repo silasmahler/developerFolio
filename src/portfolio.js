@@ -170,7 +170,7 @@ const workExperiences = {
       role: "Geschäftsführer",
       company: "KreInn GmbH",
       companylogo: require("./assets/images/kreinn.png"),
-      date: "September 2019 – heute",
+      date: "September 2020 – heute",
       desc:
         "Aufbau eines IT-Startups zur Entwicklung verschiedenster Service-, Entwicklungs- und Beratungsdienstleistungen.",
       descBullets: [
