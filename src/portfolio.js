@@ -44,6 +44,9 @@ const skillsSection = {
     emoji(
       "⚡ Entwicklung und Automatisierung von Workflows und Tech-Stacks mit Docker, CI/CD-Servern und Softwarekomponenten"
     ),
+    emoji(
+      "⚡ Architektur und Automatisierung von Cloud-Infrastrukturen mit Tools wie Terraform, Kubernetes, Ansible, ..."
+    ),
     emoji("⚡ Java Entwicklung mit dem Spring-Framework und Open Source Contributions"),
     emoji(
       "⚡ Digitalisierung von Unternehmen und rapide Entwicklung mit der AWS-Cloud und Serverless-Architekturen"
