@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "simpleBuild": "npm install --legacy-peer-deps && node fetch.js && react-scripts build && node ./src/minify-images.js",
+    "simpleBuild": "npm install --force && node fetch.js && react-scripts build && node ./src/minify-images.js",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
