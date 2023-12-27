@@ -55,7 +55,7 @@ function Header() {
             <a href="https://kreinn.de">KreInn GmbH</a>
           </li>
           <li>
-            <a href="#">
+            <a href="#switch">
               <ToggleSwitch />
             </a>
           </li>
