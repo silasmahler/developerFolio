@@ -193,10 +193,16 @@ const workExperiences = {
       companylogo: require("./assets/images/appsassociates.png"),
       date: "Januar 2021 – heute",
       desc:
-        "Beratung im Bereich Amazon Web Services und Infrastruktur & Managed Services",
+        "Professionelle Beratung im Bereich Amazon Web Services und Infrastruktur & Managed Services " +
+        "sowie Entwurf, Design und Implementierung von Cloud-Infrastrukturen mit Terraform uvm. " +
+        "für verschiedene (Groß-)Kundenprojekte",
       descBullets: [
-        "Consultant",
-        "Beratung im Bereich AWS & IMS"
+        "IT Consultant",
+        "Beratung im Bereich AWS & IMS",
+        "DevOps Lead",
+        "Terraform, AWS, Cloud, DevOps",
+        "Durchführung von Workshops und Schulungen",
+        "Terraform Associate"
       ]
     },
     {
