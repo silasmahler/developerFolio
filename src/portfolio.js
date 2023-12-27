@@ -129,7 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/fhdo-logo.png"),
       subHeader: "Master of Science in Informatik",
       duration: "Oktober 2018 - November 2023",
-      desc: "Master-Studium der Informatik",
+      desc: "Master-Studium der Informatik, Abschlussnote: 1.0",
       descBullets: [
         "Weiterführendes Studium, vertiefende Module: Compilerbau, Nebenläufige Programmierung, Machine Learning und weitere",
         "Forschungs- und Entwicklungsarbeit zum Thema \"Migrationsverfahren zur Optimierung des Anwendungsbetriebs in Multi-Cloud Szenarien unter Verwendung eines Frameworks für Cloud-Simulationen\"",
@@ -142,8 +142,8 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Informatik",
       duration: "September 2014 - September 2018",
       desc:
-        "Bachelor-Studium der Informatik",
-      descBullets: ["Abschlussarbeit mit Abschlussnote 1,3 zum Thema \"Lokale Entwicklungsumgebung mit Docker\"",
+        "Bachelor-Studium der Informatik, Abschlussnote: 1.3",
+      descBullets: ["Bachelorthesis: \"Lokale Entwicklungsumgebung mit Docker\"",
         "Arbeit in der Forschungsgruppe SEELab der FH Dortmund des Idial-Institutes"]
     }
   ]
