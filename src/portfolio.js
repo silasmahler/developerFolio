@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "Seit 2014 bin ich in der IT-Branche tätig und widme mich seit 2015 der professionellen Softwareentwicklung. 🚀 " +
     "Meine Kernbereiche umfassen DevOps, Backend-Entwicklung mit Java, Teamleitung und der Aufbau des eigenen Startups, der KreInn GmbH. " +
-    "In den vergangenen Jahren habe ich bedeutende Erfahrungen in der Forschung der Hochschule, im Open Source-Projekten und als Entwickler " +
+    "In den vergangenen Jahren habe ich bedeutende Erfahrungen in der Forschung der Hochschule, in Open Source-Projekten und als Entwickler " +
     "bei einem Großkonzern sowie als IT-Berater und DevOps-Lead gesammelt. " +
     "Parallel dazu engagiere ich mich ehrenamtlich, leite eine Hackathon-Organisation und betreibe einen Tech-Podcast. " +
     "Zuletzt habe ich meine Fähigkeiten in Terraform durch verschiedene Großprojekte vertieft, wobei der Schwerpunkt auf der " +
