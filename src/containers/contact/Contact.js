@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia.js";
 import {contactInfo} from "../../portfolio.js";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import StyleContext from "../../contexts/StyleContext.js";
 
 export default function Contact() {

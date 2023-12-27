@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.js";
 import { skillsSection } from "../../portfolio.js";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import StyleContext from "../../contexts/StyleContext.js";
 
 export default function Skills() {

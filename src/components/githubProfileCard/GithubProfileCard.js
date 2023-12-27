@@ -3,7 +3,7 @@ import "./GithubProfileCard.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia.js";
 import { contactInfo } from "../../portfolio.js";
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function GithubProfileCard({ prof }) {
   if (prof.hireable === true) {
