@@ -12,10 +12,15 @@ const greeting = {
   username: "Silas Mahler",
   title: "Hallo, ich bin Silas Mahler",
   subTitle: emoji(
-    "Ich bin seit 2014 in der Informatik tätig und seit 2015 in der professionellen Softwareentwicklung 🚀 " +
-    "Meine Schwerpunkte sind DevOps, Backend-Entwicklung mit Java, sowie Teamleitung und der Aufbau des eigenen Startups, der KreInn GmbH. " +
-    "In den letzten Jahren war ich neben der Forschung in einem Großkonzern im Open Source Bereich und als Consultant tätig. " +
-    "Nebenbei bin ich ehrenamtlich tätig, leite eine Hackathon-Organisation und mache einen Tech-Podcast."
+    "Seit 2014 bin ich in der IT-Branche tätig und widme mich seit 2015 der professionellen Softwareentwicklung. 🚀 " +
+    "Meine Kernbereiche umfassen DevOps, Backend-Entwicklung mit Java, Teamleitung und der Aufbau des eigenen Startups, der KreInn GmbH. " +
+    "In den vergangenen Jahren habe ich bedeutende Erfahrungen in der Forschung der Hochschule, im Open Source-Projekten und als Entwickler " +
+    "bei einem Großkonzern sowie als IT-Berater und DevOps-Lead gesammelt. " +
+    "Parallel dazu engagiere ich mich ehrenamtlich, leite eine Hackathon-Organisation und betreibe einen Tech-Podcast. " +
+    "Zuletzt habe ich meine Fähigkeiten in Terraform durch verschiedene Großprojekte vertieft, wobei der Schwerpunkt auf der " +
+    "Entwicklung von Cloudarchitekturen mit Terraform und AWS lag. Meine Kenntnisse in AWS sind ebenfalls umfangreich und ich habe " +
+    "verschiedene Zertifizierungen, beispielweise als Terraform Associate, erlangt. In 2023 habe ich mein Masterstudium der Informatik " +
+    "berufsbegleitend abgeschlossen. 🎓"
   ),
   resumeLink:
     "",
