@@ -20,9 +20,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "simpleBuild": "npm install --force && node fetch.js && react-scripts build && node ./src/minify-images.js",
+    "start": "node fetch.mjs && react-scripts start",
+    "build": "node fetch.mjs && react-scripts build",
+    "simpleBuild": "npm install --force && node fetch.mjs && react-scripts build && node ./src/minify-images.js",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
