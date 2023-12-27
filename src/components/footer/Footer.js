@@ -2,10 +2,10 @@ import React, { useContext, useState } from "react";
 import "./Footer.css";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
-import StyleContext from "../../contexts/StyleContext";
-import Modal from "../privacy/Modal";
-import imprint from "../privacy/imprint";
-import datenschutz from "../privacy/datenschutz";
+import StyleContext from "../../contexts/StyleContext.js";
+import Modal from "../privacy/Modal.js";
+import imprint from "../privacy/imprint.js";
+import datenschutz from "../privacy/datenschutz.js";
 
 export default function Footer() {
   const { isDark } = useContext(StyleContext);

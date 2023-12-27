@@ -1,9 +1,9 @@
 import React, {Suspense, useContext} from "react";
 import "./twitter.css";
-import Loading from "../loading/Loading";
+import Loading from "../loading/Loading.js";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
-import {twitterDetails} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
+import {twitterDetails} from "../../portfolio.js";
+import StyleContext from "../../contexts/StyleContext.js";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =

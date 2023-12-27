@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext from "../../contexts/StyleContext";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch.js";
+import StyleContext from "../../contexts/StyleContext.js";
 import {
   greeting,
   workExperiences,
   skillsSection,
   openSource,
-} from "../../portfolio";
+} from "../../portfolio.js";
 
 function Header() {
   const { isDark } = useContext(StyleContext);

@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skillsSection } from "../../portfolio";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.js";
+import { skillsSection } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext.js";
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);

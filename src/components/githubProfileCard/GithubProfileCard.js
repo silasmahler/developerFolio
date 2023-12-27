@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import "./GithubProfileCard.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo } from "../../portfolio";
+import SocialMedia from "../../components/socialMedia/SocialMedia.js";
+import { contactInfo } from "../../portfolio.js";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
 

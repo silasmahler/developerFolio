@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./WorkExperience.css";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import { workExperiences } from "../../portfolio";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
+import { workExperiences } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext.js";
 
 export default function WorkExperience() {
   const { isDark } = useContext(StyleContext);

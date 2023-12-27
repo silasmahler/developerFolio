@@ -1,20 +1,20 @@
 import "./Main.css";
 import React, { Component, lazy, Suspense} from "react";
-import Header from "../components/header/Header";
-import Greeting from "./greeting/Greeting";
-import {StyleProvider} from "../contexts/StyleContext";
-import Loading from "./loading/Loading";
+import Header from "../components/header/Header.js";
+import Greeting from "./greeting/Greeting.js";
+import {StyleProvider} from "../contexts/StyleContext.js";
+import Loading from "./loading/Loading.js";
 
-const WorkExperience = lazy(() => import(  "./workExperience/WorkExperience"));
-const Projects = lazy(() => import(  "./projects/Projects"));
-const StartupProject = lazy(() => import(  "./StartupProjects/StartupProject"));
-const Footer = lazy(() => import(  "../components/footer/Footer"));
-const Podcast = lazy(() => import(  "./podcast/Podcast"));
-const Education = lazy(() => import(  "./education/Education"));
-const Top = lazy(() => import(  "./topbutton/Top"));
-const Twitter = lazy(() => import(  "./twitter-embed/twitter"));
-const Profile = lazy(() => import(  "./profile/Profile"));
-const Skills = lazy(() => import ( "./skills/Skills" ));
+const WorkExperience = lazy(() => import(  "./workExperience/WorkExperience.js"));
+const Projects = lazy(() => import(  "./projects/Projects.js"));
+const StartupProject = lazy(() => import(  "./StartupProjects/StartupProject.js"));
+const Footer = lazy(() => import(  "../components/footer/Footer.js"));
+const Podcast = lazy(() => import(  "./podcast/Podcast.js"));
+const Education = lazy(() => import(  "./education/Education.js"));
+const Top = lazy(() => import(  "./topbutton/Top.js"));
+const Twitter = lazy(() => import(  "./twitter-embed/twitter.js"));
+const Profile = lazy(() => import(  "./profile/Profile.js"));
+const Skills = lazy(() => import ( "./skills/Skills.js" ));
 
 export default class Main extends Component {
   constructor(props) {

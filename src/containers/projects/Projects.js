@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.css";
-import Button from "../../components/button/Button";
-import { openSource, socialMediaLinks } from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
-import Loading from "../../containers/loading/Loading";
+import Button from "../../components/button/Button.js";
+import { openSource, socialMediaLinks } from "../../portfolio.js";
+import StyleContext from "../../contexts/StyleContext.js";
+import Loading from "../../containers/loading/Loading.js";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
-    import("../../components/githubRepoCard/GithubRepoCard")
+    import("../../components/githubRepoCard/GithubRepoCard.js")
   );
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;

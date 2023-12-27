@@ -1,5 +1,5 @@
 import React, {useState, useContext} from "react";
-import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext.js";
 import "./ToggleSwitch.css";
 
 const ToggleSwitch = () => {

@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 import "./StartupProjects.css";
-import {bigProjects} from "../../portfolio";
+import {bigProjects} from "../../portfolio.js";
 import {Fade} from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext.js";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {

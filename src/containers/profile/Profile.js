@@ -1,11 +1,11 @@
 import React, {useState, useEffect, lazy, Suspense} from "react";
-import {openSource} from "../../portfolio";
-import Contact from "../contact/Contact";
-import Loading from "../loading/Loading";
+import {openSource} from "../../portfolio.js";
+import Contact from "../contact/Contact.js";
+import Loading from "../loading/Loading.js";
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
-  import("../../components/githubProfileCard/GithubProfileCard")
+  import("../../components/githubProfileCard/GithubProfileCard.js")
 );
 export default function Profile() {
   const [prof, setrepo] = useState([]);
