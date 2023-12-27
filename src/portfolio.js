@@ -123,11 +123,12 @@ const educationInfo = {
       schoolName: "FH Dortmund",
       logo: require("./assets/images/fhdo-logo.png"),
       subHeader: "Master of Science in Informatik",
-      duration: "Oktober 2018 - heute",
+      duration: "Oktober 2018 - November 2023",
       desc: "Master-Studium der Informatik",
       descBullets: [
         "Weiterführendes Studium, vertiefende Module: Compilerbau, Nebenläufige Programmierung, Machine Learning und weitere",
-        "Forschungs- und Entwicklungsarbeit zum Thema \"Konzept zur Optimierung automatisch bereitgestellter Cloud-Umgebungen anhand horizontaler Metriken\""
+        "Forschungs- und Entwicklungsarbeit zum Thema \"Migrationsverfahren zur Optimierung des Anwendungsbetriebs in Multi-Cloud Szenarien unter Verwendung eines Frameworks für Cloud-Simulationen\"",
+        "Masterthesis: \"Evaluation des simulationsbasierten Multi-Cloud-Migrationsverfahrens SimMig\""
       ]
     },
     {
