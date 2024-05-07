@@ -188,10 +188,28 @@ const workExperiences = {
       ]
     },
     {
+      role: "Senior Delivery Architect",
+      company: "Capgemini Deutschland GmbH",
+      companylogo: require("./assets/images/capgemini.png"),
+      date: "Mai 2024 – heute",
+      desc:
+        "Professionelle Architektur, Beratung und Entwicklung von Cloud Infrastrukturen & Managed Services " +
+        "im Bereich Cloud Native Hyperscaler mit Terraform uvm. " +
+        "für verschiedene (Groß-)Kundenprojekte",
+      descBullets: [
+        "Seniro Delivery Architect",
+        "Beratung",
+        "DevOps Lead",
+        "Terraform, AWS, Cloud, DevOps",
+        "Durchführung von Workshops und Schulungen",
+        "Terraform Associate"
+      ]
+    },
+    {
       role: "Consultant AWS/IMS",
       company: "AppsAssociates GmbH",
       companylogo: require("./assets/images/appsassociates.png"),
-      date: "Januar 2021 – heute",
+      date: "Januar 2021 – April 2024",
       desc:
         "Professionelle Beratung im Bereich Amazon Web Services und Infrastruktur & Managed Services " +
         "sowie Entwurf, Design und Implementierung von Cloud-Infrastrukturen mit Terraform uvm. " +
