@@ -197,7 +197,7 @@ const workExperiences = {
         "im Bereich Cloud Native Hyperscaler mit Terraform uvm. " +
         "für verschiedene (Groß-)Kundenprojekte",
       descBullets: [
-        "Seniro Delivery Architect",
+        "Senior Delivery Architect",
         "Beratung",
         "DevOps Lead",
         "Terraform, AWS, Cloud, DevOps",
@@ -206,7 +206,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Consultant AWS/IMS",
+      role: "Senior Consultant AWS/IMS",
       company: "AppsAssociates GmbH",
       companylogo: require("./assets/images/appsassociates.png"),
       date: "Januar 2021 – April 2024",
