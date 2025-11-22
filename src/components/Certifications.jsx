@@ -11,7 +11,7 @@ function Certifications() {
     return (
         <section id="certifications" className="py-20">
             <motion.h1
-                className="text-4xl font-bold mb-10 text-center"
+                className="text-4xl font-bold mb-10 text-center text-black dark:text-white"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -24,7 +24,7 @@ function Certifications() {
                 {certifications.certifications.map((cert, index) => (
                     <motion.div
                         key={index}
-                        className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:border-gray-700 flex flex-col justify-between"
+                        className="card p-6 hover:-translate-y-1 flex flex-col justify-between"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}

@@ -5,7 +5,7 @@
     },
     "skills": {
         "title": "What I do",
-        "subtitle": "FULL STACK DATA SCIENTIST & CLOUD ARCHITECT",
+        "subtitle": "SENIOR ARCHITECT",
         "skill1": "⚡ Consulting, design, and implementation of AWS cloud infrastructures for software migrations",
         "skill2": "⚡ Infrastructure as Code (IaC) with Terraform, as well as DevOps build tools and workflows",
         "skill3": "⚡ Expertise in cloud system architectures, Java-based microservices, and the Spring ecosystem and a focus on modular architectures"
@@ -26,8 +26,8 @@
             "desc": "Specializing in the specification and implementation of cloud-native solutions for software migrations and enterprise systems in AWS. Providing comprehensive consulting and advisory services.",
             "bullets": {
                 "header": "Key Client Engagements:",
-                "mercedes": "• Mercedes-Benz Group AG (2025): AWS Cloud Architecture for ADAS platform cloud infrastructure modernization, processing massive amounts of sensor and driving data for autonomous driving (Levels 1-3)",
-                "aws": "• Amazon AWS (2025): AWS Cloud architecture & AWS Well-Architected Tool",
+                "mercedes": "Mercedes-Benz Group AG (2025): AWS Cloud Architecture for ADAS platform cloud infrastructure modernization, processing massive amounts of sensor and driving data for autonomous driving (Levels 1-3)",
+                "aws": "Amazon AWS (2025): AWS Cloud architecture & AWS Well-Architected Tool",
                 "modernization": "Cloud Infrastructure Modernization & Architecture Consulting",
                 "iac": "Infrastructure-as-Code (IaC) Development",
                 "security": "Security & Compliance Advisory",
@@ -49,12 +49,12 @@
             "desc": "Provided professional consulting in AWS and Infrastructure & Managed Services (IMS), supporting large-scale cloud migration and modernization projects.",
             "bullets": {
                 "header": "Key Client Engagements:",
-                "ifs": "• IFS Cloud Landscape (2022-2024): Designed and implemented AWS-based cloud infrastructure for the ERP system IFS with Terraform automation",
-                "university": "• University in London (2023): Led DevOps team for Oracle EBS migration to AWS, developed migration plans and cloud infrastructure designs",
-                "football": "• Leading Football Association in Germany (2023): Strategic AWS and Terraform consulting",
-                "carRental": "• Global Car Rental Company (2022-2023): Led DevOps for modernization and cloud migration of critical applications and nearly 100 databases",
-                "energy": "• Energy Exchange in Stuttgart (2024): Designed and implemented cloud infrastructure for software migration, led infrastructure team",
-                "payment": "• Global Payment Service Provider (2023-2024): Managed Oracle Enterprise migration to AWS, architectural and security consulting",
+                "ifs": "IFS Cloud Landscape (2022-2024): Designed and implemented AWS-based cloud infrastructure for the ERP system IFS with Terraform automation",
+                "university": "University in London (2023): Led DevOps team for Oracle EBS migration to AWS, developed migration plans and cloud infrastructure designs",
+                "football": "Leading Football Association in Germany (2023): Strategic AWS and Terraform consulting",
+                "carRental": "Global Car Rental Company (2022-2023): Led DevOps for modernization and cloud migration of critical applications and nearly 100 databases",
+                "energy": "Energy Exchange in Stuttgart (2024): Designed and implemented cloud infrastructure for software migration, led infrastructure team",
+                "payment": "Global Payment Service Provider (2023-2024): Managed Oracle Enterprise migration to AWS, architectural and security consulting",
                 "consulting": "AWS consulting & Cloud architecture",
                 "ims": "Infrastructure & Managed Services",
                 "terraform": "Terraform automation & DevOps leadership",

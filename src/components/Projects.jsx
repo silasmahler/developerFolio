@@ -31,7 +31,7 @@ function Projects() {
     return (
         <section id="projects" className="py-20">
             <motion.h1
-                className="text-4xl font-bold mb-10 text-center"
+                className="text-4xl font-bold mb-10 text-center text-black dark:text-white"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -44,13 +44,13 @@ function Projects() {
             {bigProjects.display && (
                 <div className="mb-20">
                     <h2 className="text-2xl font-bold text-center mb-2">{t('projects.bigProjects.title')}</h2>
-                    <p className="text-center text-gray-500 dark:text-gray-400 mb-10">{t('projects.bigProjects.subtitle')}</p>
+                    <p className="text-center text-black dark:text-gray-300 mb-10">{t('projects.bigProjects.subtitle')}</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {bigProjects.projects.map((project, index) => (
                             <motion.div
                                 key={index}
-                                className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:border-gray-700"
+                                className="card overflow-hidden hover:-translate-y-1"
                                 initial={{ opacity: 0, scale: 0.9 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}
@@ -60,8 +60,8 @@ function Projects() {
                                     <img src={project.image} alt={t(`projects.bigProjects.${project.projectKey}.name`)} className="h-full object-contain" />
                                 </div>
                                 <div className="p-6">
-                                    <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">{t(`projects.bigProjects.${project.projectKey}.name`)}</h3>
-                                    <p className="text-gray-600 dark:text-gray-400 mb-6">{t(`projects.bigProjects.${project.projectKey}.desc`)}</p>
+                                    <h3 className="text-2xl font-bold mb-2 text-black dark:text-white">{t(`projects.bigProjects.${project.projectKey}.name`)}</h3>
+                                    <p className="text-black dark:text-gray-300 mb-6">{t(`projects.bigProjects.${project.projectKey}.desc`)}</p>
                                     <div className="flex flex-wrap gap-4">
                                         {project.footerLink.map((link, i) => (
                                             <a
@@ -87,7 +87,7 @@ function Projects() {
                 <div>
                     <h2 className="text-2xl font-bold text-center mb-2">{t('projects.openSource.title')}</h2>
                     {openSource.subtitle && (
-                        <p className="text-center text-gray-500 dark:text-gray-400 mb-10">{t('projects.openSource.subtitle')}</p>
+                        <p className="text-center text-black dark:text-gray-300 mb-10">{t('projects.openSource.subtitle')}</p>
                     )}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {repoData.map((repo, index) => {
@@ -98,23 +98,23 @@ function Projects() {
                                     href={node.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full hover:-translate-y-1"
+                                    className="card p-6 flex flex-col h-full hover:-translate-y-1"
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ duration: 0.5, delay: index * 0.05 }}
                                 >
                                     <div className="flex justify-between items-start mb-4">
-                                        <h3 className="text-xl font-bold text-gray-900 dark:text-white truncate pr-4">{node.name}</h3>
-                                        <span className="text-gray-500 text-sm flex items-center">
+                                        <h3 className="text-xl font-bold text-black dark:text-white truncate pr-4">{node.name}</h3>
+                                        <span className="text-black dark:text-gray-300 text-sm flex items-center">
                                             <span className="w-3 h-3 rounded-full mr-1" style={{ backgroundColor: node.primaryLanguage.color }}></span>
                                             {node.primaryLanguage.name}
                                         </span>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mb-4 flex-grow text-sm line-clamp-3">
+                                    <p className="text-black dark:text-gray-300 mb-4 flex-grow text-sm line-clamp-3">
                                         {node.description}
                                     </p>
-                                    <div className="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400 mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+                                    <div className="flex justify-between items-center text-sm text-black dark:text-gray-300 mt-auto pt-4 border-t border-gray-200 dark:border-gray-700">
                                         <div className="flex items-center space-x-4">
                                             <span className="flex items-center">
                                                 <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" /></svg>

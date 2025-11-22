@@ -11,7 +11,7 @@ function Education() {
     return (
         <section id="education" className="py-20">
             <motion.h1
-                className="text-4xl font-bold mb-10 text-center"
+                className="text-4xl font-bold mb-10 text-center text-black dark:text-white"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -24,7 +24,7 @@ function Education() {
                 {educationInfo.schools.map((school, index) => (
                     <motion.div
                         key={index}
-                        className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:border-gray-700"
+                        className="card p-6 hover:-translate-y-1"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -39,10 +39,10 @@ function Education() {
                                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{school.schoolName}</h3>
                                     <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">{school.duration}</span>
                                 </div>
-                                <h4 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2">{school.subHeader}</h4>
-                                <p className="text-gray-600 dark:text-gray-400 mb-4">{school.desc}</p>
+                                <h4 className="text-xl font-semibold text-black dark:text-gray-300 mb-2">{school.subHeader}</h4>
+                                <p className="text-black dark:text-gray-300 mb-4">{school.desc}</p>
                                 {school.descBullets && (
-                                    <ul className="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-400 text-sm">
+                                    <ul className="list-disc list-inside space-y-1 text-black dark:text-gray-300 text-sm">
                                         {school.descBullets.map((bullet, i) => (
                                             <li key={i}>{bullet}</li>
                                         ))}

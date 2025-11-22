@@ -15,7 +15,7 @@ function Contact() {
             <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
                 <div className="w-full lg:w-1/2">
                     <motion.h1
-                        className="text-4xl font-bold mb-6"
+                        className="text-4xl font-bold mb-6 text-black dark:text-white"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -24,7 +24,7 @@ function Contact() {
                         {t('contact.title')}
                     </motion.h1>
                     <motion.p
-                        className="text-lg text-gray-500 dark:text-gray-400 mb-8"
+                        className="text-lg text-black dark:text-gray-300 mb-8"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}

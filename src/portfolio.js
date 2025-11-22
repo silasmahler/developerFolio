@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DATA SCIENTIST & CLOUD ARCHITECT",
+  subTitle: "Senior Cloud Architect",
   skills: [
     emoji(
       "⚡ Consulting, design, and implementation of AWS cloud infrastructures for software migrations"

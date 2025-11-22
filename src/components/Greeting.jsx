@@ -16,7 +16,7 @@ function Greeting() {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between min-h-[calc(100vh-4rem)]">
             <div className="w-full lg:w-1/2 pr-0 lg:pr-10 text-center lg:text-left">
                 <motion.h1
-                    className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight"
+                    className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-black dark:text-white"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
@@ -25,7 +25,7 @@ function Greeting() {
                     <span className="wave-emoji inline-block ml-2">👋</span>
                 </motion.h1>
                 <motion.p
-                    className="text-lg sm:text-xl text-gray-500 dark:text-gray-400 mb-8 leading-relaxed"
+                    className="text-lg sm:text-xl text-black dark:text-gray-300 mb-8 leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
@@ -76,7 +76,7 @@ function Greeting() {
                     </div>
                 ) : (
                     <div className="w-full h-auto max-w-lg mx-auto bg-gray-200 dark:bg-gray-800 rounded-lg aspect-video flex items-center justify-center">
-                        <span className="text-gray-500">Illustration</span>
+                        <span className="text-black dark:text-gray-500">Illustration</span>
                     </div>
                 )}
             </div>

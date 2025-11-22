@@ -27,7 +27,7 @@ function Skills() {
 
                 <div className="w-full lg:w-1/2 lg:pl-10">
                     <motion.h1
-                        className="text-4xl font-bold mb-6"
+                        className="text-4xl font-bold mb-6 text-black dark:text-white"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -36,7 +36,7 @@ function Skills() {
                         {t('skills.title')}
                     </motion.h1>
                     <motion.p
-                        className="text-lg text-gray-500 dark:text-gray-400 mb-8"
+                        className="text-lg text-black dark:text-gray-300 mb-8"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -49,7 +49,7 @@ function Skills() {
                         {skillsSection.softwareSkills.map((skill, index) => (
                             <motion.div
                                 key={index}
-                                className="text-4xl text-gray-500 hover:text-primary transition-colors duration-300 cursor-pointer"
+                                className="text-4xl text-black hover:text-primary transition-colors duration-300 cursor-pointer"
                                 title={skill.skillName}
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -63,7 +63,7 @@ function Skills() {
 
                     <div className="space-y-4">
                         <motion.p
-                            className="text-gray-600 dark:text-gray-300"
+                            className="text-black dark:text-gray-300"
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -72,7 +72,7 @@ function Skills() {
                             {t('skills.skill1')}
                         </motion.p>
                         <motion.p
-                            className="text-gray-600 dark:text-gray-300"
+                            className="text-black dark:text-gray-300"
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -81,7 +81,7 @@ function Skills() {
                             {t('skills.skill2')}
                         </motion.p>
                         <motion.p
-                            className="text-gray-600 dark:text-gray-300"
+                            className="text-black dark:text-gray-300"
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -96,8 +96,8 @@ function Skills() {
                             {techStack.experience.map((exp, index) => (
                                 <div key={index}>
                                     <div className="flex justify-between mb-1">
-                                        <span className="text-base font-medium text-gray-700 dark:text-gray-300">{exp.Stack}</span>
-                                        <span className="text-sm font-medium text-gray-500 dark:text-gray-400">{exp.progressPercentage}</span>
+                                        <span className="text-base font-medium text-black dark:text-gray-300">{exp.Stack}</span>
+                                        <span className="text-sm font-medium text-black dark:text-gray-400">{exp.progressPercentage}</span>
                                     </div>
                                     <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                                         <motion.div

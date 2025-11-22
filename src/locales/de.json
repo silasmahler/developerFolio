@@ -5,7 +5,7 @@
     },
     "skills": {
         "title": "Was ich mache",
-        "subtitle": "FULL STACK DATA SCIENTIST & CLOUD ARCHITECT",
+        "subtitle": "SENIOR ARCHITECT",
         "skill1": "⚡ Beratung, Design und Implementierung von AWS Cloud-Infrastrukturen für Software-Migrationen",
         "skill2": "⚡ Infrastructure as Code (IaC) mit Terraform sowie DevOps Build-Tools und Workflows",
         "skill3": "⚡ Expertise in Cloud-Systemarchitekturen, Java-basierten Microservices und dem Spring-Ökosystem mit Fokus auf modulare Architekturen"
@@ -26,8 +26,8 @@
             "desc": "Spezialisiert auf die Spezifikation und Implementierung von cloud-nativen Lösungen für Software-Migrationen und Unternehmenssysteme in AWS. Umfassende Beratungs- und Advisory-Dienstleistungen.",
             "bullets": {
                 "header": "Wichtige Kundenprojekte:",
-                "mercedes": "• Mercedes-Benz Group AG (2025): AWS Cloud-Architektur für ADAS-Plattform Cloud-Infrastruktur-Modernisierung, Verarbeitung massiver Mengen an Sensor- und Fahrdaten für autonomes Fahren (Level 1-3)",
-                "aws": "• Amazon AWS (2025): AWS Cloud-Architektur & AWS Well-Architected Tool",
+                "mercedes": "Mercedes-Benz Group AG (2025): AWS Cloud-Architektur für ADAS-Plattform Cloud-Infrastruktur-Modernisierung, Verarbeitung massiver Mengen an Sensor- und Fahrdaten für autonomes Fahren (Level 1-3)",
+                "aws": "Amazon AWS (2025): AWS Cloud-Architektur & AWS Well-Architected Tool",
                 "modernization": "Cloud-Infrastruktur-Modernisierung & Architektur-Beratung",
                 "iac": "Infrastructure-as-Code (IaC) Entwicklung",
                 "security": "Sicherheits- & Compliance-Beratung",
@@ -49,12 +49,12 @@
             "desc": "Professionelle Beratung in AWS und Infrastructure & Managed Services (IMS), Unterstützung großer Cloud-Migrations- und Modernisierungsprojekte.",
             "bullets": {
                 "header": "Wichtige Kundenprojekte:",
-                "ifs": "• IFS Cloud Landscape (2022-2024): Design und Implementierung einer AWS-basierten Cloud-Infrastruktur für das ERP-System IFS mit Terraform-Automatisierung",
-                "university": "• Universität in London (2023): Leitung des DevOps-Teams für Oracle EBS Migration zu AWS, Entwicklung von Migrationsplänen und Cloud-Infrastruktur-Designs",
-                "football": "• Führender Fußballverband in Deutschland (2023): Strategische AWS- und Terraform-Beratung",
-                "carRental": "• Globales Autovermietungsunternehmen (2022-2023): DevOps-Leitung für Modernisierung und Cloud-Migration kritischer Anwendungen und fast 100 Datenbanken",
-                "energy": "• Energiebörse in Stuttgart (2024): Design und Implementierung der Cloud-Infrastruktur für Software-Migration, Leitung des Infrastruktur-Teams",
-                "payment": "• Globaler Zahlungsdienstleister (2023-2024): Management der Oracle Enterprise Migration zu AWS, Architektur- und Sicherheitsberatung",
+                "ifs": "IFS Cloud Landscape (2022-2024): Design und Implementierung einer AWS-basierten Cloud-Infrastruktur für das ERP-System IFS mit Terraform-Automatisierung",
+                "university": "Universität in London (2023): Leitung des DevOps-Teams für Oracle EBS Migration zu AWS, Entwicklung von Migrationsplänen und Cloud-Infrastruktur-Designs",
+                "football": "Führender Fußballverband in Deutschland (2023): Strategische AWS- und Terraform-Beratung",
+                "carRental": "Globales Autovermietungsunternehmen (2022-2023): DevOps-Leitung für Modernisierung und Cloud-Migration kritischer Anwendungen und fast 100 Datenbanken",
+                "energy": "Energiebörse in Stuttgart (2024): Design und Implementierung der Cloud-Infrastruktur für Software-Migration, Leitung des Infrastruktur-Teams",
+                "payment": "Globaler Zahlungsdienstleister (2023-2024): Management der Oracle Enterprise Migration zu AWS, Architektur- und Sicherheitsberatung",
                 "consulting": "AWS-Beratung & Cloud-Architektur",
                 "ims": "Infrastructure & Managed Services",
                 "terraform": "Terraform-Automatisierung & DevOps-Leadership",

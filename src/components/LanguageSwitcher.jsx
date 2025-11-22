@@ -12,7 +12,7 @@ function LanguageSwitcher() {
     return (
         <button
             onClick={toggleLanguage}
-            className="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 font-medium text-sm"
+            className="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 font-medium text-sm text-black dark:text-white"
             aria-label="Toggle Language"
         >
             {i18n.language === 'en' ? '🇩🇪 DE' : '🇬🇧 EN'}

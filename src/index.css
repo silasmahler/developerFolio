@@ -2,26 +2,128 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Premium gradient background with animation */
 @layer base {
   body {
-    @apply bg-dark text-light font-sans;
+    @apply font-sans;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f3 50%, #c3cfe2 100%);
+    background-size: 200% 200%;
+    animation: gradientShift 15s ease infinite;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  .dark body {
+    @apply bg-dark;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+    background-size: 200% 200%;
+    animation: gradientShift 20s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-outfit font-bold;
   }
 }
 
+/* Premium glass-morphism card style */
+@layer utilities {
+  .card {
+    @apply rounded-xl shadow-lg transition-all duration-300 ease-out;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .dark .card {
+    background: rgba(30, 30, 30, 0.85);
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 48px rgba(108, 99, 255, 0.15);
+  }
+
+  .dark .card:hover {
+    box-shadow: 0 12px 48px rgba(108, 99, 255, 0.25);
+  }
+}
+
 /* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .dark ::-webkit-scrollbar-track {
+    background: #121212;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(108, 99, 255, 0.3);
+    border-radius: 5px;
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background: #2A2A2A;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6C63FF;
+  }
 }
-::-webkit-scrollbar-track {
-  background: #121212;
+
+/* Premium Button Styles */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300;
+    @apply bg-primary text-white hover:bg-primary/90 hover:shadow-lg hover:-translate-y-0.5;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .dark .btn-primary {
+    @apply focus:ring-offset-dark;
+  }
+
+  .icon-button {
+    @apply w-12 h-12 rounded-full flex items-center justify-center text-xl transition-all duration-300;
+    @apply hover:scale-110 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .dark .icon-button {
+    @apply focus:ring-offset-dark;
+  }
 }
-::-webkit-scrollbar-thumb {
-  background: #2A2A2A;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #6C63FF;
+
+/* Wave Animation for Emoji */
+@layer utilities {
+  .wave-emoji {
+    animation: wave 2.5s ease-in-out infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    10%, 30% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    40%, 60% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+  }
 }
