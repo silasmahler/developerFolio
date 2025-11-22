@@ -3,6 +3,14 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import fhdoLogo from "./assets/images/fhdo-logo.png";
+import kreinnLogo from "./assets/images/kreinn.png";
+import capgeminiLogo from "./assets/images/capgemini.png";
+import appsAssociatesLogo from "./assets/images/appsassociates.png";
+import adessoLogo from "./assets/images/adesso.png";
+import dohackLogo from "./assets/images/dohack.png";
+import adeprecatedLogo from "./assets/images/adeprecated.png";
+import profilePhoto from "./assets/images/profile.jpg";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -10,21 +18,16 @@ const illustration = {
 
 const greeting = {
   username: "Silas Mahler",
-  title: "Hallo, ich bin Silas Mahler",
+  title: "Hi, I'm Silas Mahler",
   subTitle: emoji(
-    "Seit 2014 bin ich in der IT-Branche tätig und widme mich seit 2015 der professionellen Softwareentwicklung. 🚀 " +
-    "Meine Kernbereiche umfassen DevOps, Backend-Entwicklung mit Java, Teamleitung und der Aufbau des eigenen Startups, der KreInn GmbH. " +
-    "In den vergangenen Jahren habe ich bedeutende Erfahrungen in der Forschung der Hochschule, in Open Source-Projekten und als Entwickler " +
-    "bei einem Großkonzern sowie als IT-Berater und DevOps-Lead gesammelt. " +
-    "Parallel dazu engagiere ich mich ehrenamtlich, leite eine Hackathon-Organisation und betreibe einen Tech-Podcast. " +
-    "Zuletzt habe ich meine Fähigkeiten in Terraform durch verschiedene Großprojekte vertieft, wobei der Schwerpunkt auf der " +
-    "Entwicklung von Cloudarchitekturen mit Terraform und AWS lag. Meine Kenntnisse in AWS sind ebenfalls umfangreich und ich habe " +
-    "verschiedene Zertifizierungen, beispielweise als Terraform Associate, erlangt. In 2023 habe ich mein Masterstudium der Informatik " +
-    "berufsbegleitend abgeschlossen. 🎓"
+    "Senior Delivery Architect – Cloud & DevOps. I advise customers on architecture, security, and solution design for cloud-native AWS systems. " +
+    "I specialize in Infrastructure as Code (IaC) with Terraform and Packer, AWS cloud architecture, and DevOps automation. " +
+    "As a Certified Terraform Associate and AWS Certified professional, I optimize cloud infrastructures for scalability, security, and cost efficiency. " +
+    "With expertise in Java-based microservices, the Spring ecosystem, and CI/CD workflows, I ensure seamless integration and high-performance delivery. 🚀"
   ),
-  resumeLink:
-    "",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "",
+  displayGreeting: true, // Set false to hide this section, defaults to true
+  profileImage: profilePhoto
 };
 
 // Social Media Links
@@ -43,18 +46,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Womit ich arbeite",
-  subTitle: "Eine Auswahl meiner häufig verwendeten Technologien",
+  title: "What I do",
+  subTitle: "FULL STACK DATA SCIENTIST & CLOUD ARCHITECT",
   skills: [
     emoji(
-      "⚡ Entwicklung und Automatisierung von Workflows und Tech-Stacks mit Docker, CI/CD-Servern und Softwarekomponenten"
+      "⚡ Consulting, design, and implementation of AWS cloud infrastructures for software migrations"
     ),
     emoji(
-      "⚡ Architektur und Automatisierung von Cloud-Infrastrukturen mit Tools wie Terraform, Kubernetes, Ansible, ..."
+      "⚡ Infrastructure as Code (IaC) with Terraform, as well as DevOps build tools and workflows"
     ),
-    emoji("⚡ Java Entwicklung mit dem Spring-Framework und Open Source Contributions"),
     emoji(
-      "⚡ Digitalisierung von Unternehmen und rapide Entwicklung mit der AWS-Cloud und Serverless-Architekturen"
+      "⚡ Expertise in cloud system architectures, Java-based microservices, and the Spring ecosystem and a focus on modular architectures"
     )
   ],
 
@@ -63,57 +65,44 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    }
-    ,
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
     {
-      skillName: "docker",
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-code" // using code icon as generic for terraform if specific not avail
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "jenkins",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-      skillName: "wordpress",
-      fontAwesomeClassname: "fab fa-wordpress"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "vaadin",
-      fontAwesomeClassname: "fab fa-vaadin"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "databases",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "cloud-providers",
-      fontAwesomeClassname: "fas fa-cloud"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,25 +115,19 @@ const educationInfo = {
   schools: [
     {
       schoolName: "FH Dortmund",
-      logo: require("./assets/images/fhdo-logo.png"),
-      subHeader: "Master of Science in Informatik",
-      duration: "Oktober 2018 - November 2023",
-      desc: "Master-Studium der Informatik, Abschlussnote: 1.0",
-      descBullets: [
-        "Weiterführendes Studium, vertiefende Module: Compilerbau, Nebenläufige Programmierung, Machine Learning und weitere",
-        "Forschungs- und Entwicklungsarbeit zum Thema \"Migrationsverfahren zur Optimierung des Anwendungsbetriebs in Multi-Cloud Szenarien unter Verwendung eines Frameworks für Cloud-Simulationen\"",
-        "Masterthesis: \"Evaluation des simulationsbasierten Multi-Cloud-Migrationsverfahrens SimMig\""
-      ]
+      logo: fhdoLogo,
+      subHeader: "M.Sc. Informatik",
+      duration: "2023",
+      desc: "Master of Science in Computer Science",
+      descBullets: []
     },
     {
       schoolName: "FH Dortmund",
-      logo: require("./assets/images/fhdo-logo.png"),
-      subHeader: "Bachelor of Science in Informatik",
-      duration: "September 2014 - September 2018",
-      desc:
-        "Bachelor-Studium der Informatik, Abschlussnote: 1.3",
-      descBullets: ["Bachelorthesis: \"Lokale Entwicklungsumgebung mit Docker\"",
-        "Arbeit in der Forschungsgruppe SEELab der FH Dortmund des Idial-Institutes"]
+      logo: fhdoLogo,
+      subHeader: "B.Sc. Informatik",
+      duration: "2018",
+      desc: "Bachelor of Science in Computer Science",
+      descBullets: []
     }
   ]
 };
@@ -152,19 +135,23 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "DevOps", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Cloud Architecture (AWS)",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Infrastructure as Code (Terraform)",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "DevOps & Automation",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Java / Spring",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,78 +163,82 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Geschäftsführer",
+      companyKey: "capgemini",
+      company: "Capgemini",
+      companylogo: capgeminiLogo,
+      date: "2024 – current"
+    },
+    {
+      companyKey: "kreinn",
       company: "KreInn GmbH",
-      companylogo: require("./assets/images/kreinn.png"),
-      date: "September 2020 – heute",
-      desc:
-        "Aufbau eines IT-Startups zur Entwicklung verschiedenster Service-, Entwicklungs- und Beratungsdienstleistungen.",
-      descBullets: [
-        "Geschäftsführer",
-        "Technische Administration, Aufbau der IT- & Infrastruktur"
-      ]
+      companylogo: kreinnLogo,
+      date: "2020 – current"
     },
     {
-      role: "Senior Delivery Architect",
-      company: "Capgemini Deutschland GmbH",
-      companylogo: require("./assets/images/capgemini.png"),
-      date: "Mai 2024 – heute",
-      desc:
-        "Professionelle Architektur, Beratung und Entwicklung von Cloud Infrastrukturen & Managed Services " +
-        "im Bereich Cloud Native Hyperscaler mit Terraform uvm. " +
-        "für verschiedene (Groß-)Kundenprojekte",
-      descBullets: [
-        "Senior Delivery Architect",
-        "Beratung",
-        "DevOps Lead",
-        "Terraform, AWS, Cloud, DevOps",
-        "Durchführung von Workshops und Schulungen",
-        "Terraform Associate"
-      ]
+      companyKey: "appsAssociates",
+      company: "Apps Associates GmbH",
+      companylogo: appsAssociatesLogo,
+      date: "2021 – 2024"
     },
     {
-      role: "Senior Consultant AWS/IMS",
-      company: "AppsAssociates GmbH",
-      companylogo: require("./assets/images/appsassociates.png"),
-      date: "Januar 2021 – April 2024",
-      desc:
-        "Professionelle Beratung im Bereich Amazon Web Services und Infrastruktur & Managed Services " +
-        "sowie Entwurf, Design und Implementierung von Cloud-Infrastrukturen mit Terraform uvm. " +
-        "für verschiedene (Groß-)Kundenprojekte",
-      descBullets: [
-        "IT Consultant",
-        "Beratung im Bereich AWS & IMS",
-        "DevOps Lead",
-        "Terraform, AWS, Cloud, DevOps",
-        "Durchführung von Workshops und Schulungen",
-        "Terraform Associate"
-      ]
+      companyKey: "adesso",
+      company: "adesso SE",
+      companylogo: adessoLogo,
+      date: "2017 – 2020"
     },
     {
-      role: "Softwarentwickler Open Source",
-      company: "Adesso SE",
-      companylogo: require("./assets/images/adesso.png"),
-      date: "September 2017 – Oktober 2020",
-      desc:
-        "Aufbau der Open Source Präsenz der adesso SE und Entwicklung in verschiedenen Kundenprojekten sowie Beratung im Hackathon-Bereich.",
-      descBullets: [
-        "Open Source",
-        "Diverse Kundenprojekte",
-        "Durchführung und Beratung verschiedener Hackathons"
-      ]
+      companyKey: "fhdo",
+      company: "FH Dortmund",
+      companylogo: fhdoLogo,
+      date: "2015 – 2017"
+    }
+  ]
+};
+
+// Certifications Section
+
+const certifications = {
+  display: true,
+  certifications: [
+    {
+      title: "HashiCorp Certified: Terraform Associate (003)",
+      date: "2024"
     },
     {
-      role: "Studentische Hilfskraft Forschung",
-      company: "Fachhochschule Dortmund",
-      companylogo: require("./assets/images/fhdo-logo.png"),
-      date: "Juli 2015 – August 2017",
-      desc:
-        "Studentische Hilfskraft in der Forschung der FH Dortmund des Fachbereichs 4 (Informatik) in der Forschungsgruppe SEELab (seit Januar 2017 dem IDIAL Institut angehörig).",
-      descBullets: [
-        "Forschung",
-        "Projekt-Plattform Quartiersnetz",
-        "Durchführung verschiedener Hackathons zusammen mit der FH Dortmund"
-      ]
+      title: "AWS Cloud Quest: Machine Learning",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Data Analytics",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Serverless Developer",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Security",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Networking",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Solutions Architect",
+      date: "2024"
+    },
+    {
+      title: "AWS Cloud Quest: Cloud Practitioner",
+      date: "2024"
+    },
+    {
+      title: "HashiCorp Certified: Terraform Associate",
+      date: "2022"
+    },
+    {
+      title: "AWS Certified Cloud Practitioner",
+      date: "2021"
     }
   ]
 };
@@ -256,6 +247,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  title: "Open Source Contributions",
+  subtitle: "Aktive Beiträge zu verschiedenen Open-Source-Projekten. Weitere Projekte und Aktivitäten auf GitHub.",
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -263,28 +256,45 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Weitere große Projekte",
-  subtitle: "Organisationen, die ich aufgebaut habe oder in denen ich mitwirke",
+  title: "Big Projects",
+  subtitle: "Organizations I helped build or contribute to",
   projects: [
     {
-      image: require("./assets/images/dohack.png"),
-      projectName: "DO!Hack",
-      projectDesc: "Unsere erfolgreiche Hackathon-Organisation seit 2015",
+      image: kreinnLogo,
+      projectKey: "kreinn",
       footerLink: [
         {
-          name: "Webseite besuchen",
-          url: "https://dohack.io/"
+          nameKey: "link",
+          url: "https://kreinn.de/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/adeprecated.png"),
-      projectName: "Already Deprecated Stream",
-      projectDesc: "Ein Tech-Stream mit einigen herausragenden Kollegen",
+      image: kreinnLogo,
+      projectKey: "trackinn",
       footerLink: [
         {
-          name: "Webseite besuchen",
+          nameKey: "link",
+          url: "https://trackinn.de/"
+        }
+      ]
+    },
+    {
+      image: dohackLogo,
+      projectKey: "dohack",
+      footerLink: [
+        {
+          nameKey: "linkYoutube",
+          url: "https://www.youtube.com/@dohack6855"
+        }
+      ]
+    },
+    {
+      image: adeprecatedLogo,
+      projectKey: "deprecated",
+      footerLink: [
+        {
+          nameKey: "link",
           url: "https://beacons.page/alreadydeprecated"
         }
       ]
@@ -297,7 +307,7 @@ const bigProjects = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "Besucht unseren Tech-Podcast! :)",
+  subtitle: "Check out our Tech-Podcast! :)",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -307,9 +317,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Kontaktieren Sie mich ☎️"),
+  title: emoji("Contact Me ☎️"),
   subtitle:
-    "Wenn Sie ein Projekt besprechen wollen oder sich über Technologien austauschen möchten, kontaktieren Sie mich gerne! ",
+    "If you want to discuss a project or exchange ideas about technologies, feel free to contact me!",
   number: "",
   email_address: "info@silas-mahler.de"
 };
@@ -333,5 +343,6 @@ export {
   bigProjects,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  certifications
 };

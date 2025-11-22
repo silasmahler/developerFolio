@@ -1,0 +1,146 @@
+{
+    "greeting": {
+        "title": "Hallo, ich bin Silas Mahler",
+        "subtitle": "Senior Delivery Architect – Cloud & DevOps. Ich berate Kunden zu Architektur, Sicherheit und Lösungsdesign für cloud-native AWS-Systeme. Ich spezialisiere mich auf Infrastructure as Code (IaC) mit Terraform und Packer, AWS Cloud-Architektur und DevOps-Automatisierung. Als zertifizierter Terraform Associate und AWS Certified Professional optimiere ich Cloud-Infrastrukturen für Skalierbarkeit, Sicherheit und Kosteneffizienz. Mit Expertise in Java-basierten Microservices, dem Spring-Ökosystem und CI/CD-Workflows sorge ich für nahtlose Integration und leistungsstarke Bereitstellung. 🚀"
+    },
+    "skills": {
+        "title": "Was ich mache",
+        "subtitle": "FULL STACK DATA SCIENTIST & CLOUD ARCHITECT",
+        "skill1": "⚡ Beratung, Design und Implementierung von AWS Cloud-Infrastrukturen für Software-Migrationen",
+        "skill2": "⚡ Infrastructure as Code (IaC) mit Terraform sowie DevOps Build-Tools und Workflows",
+        "skill3": "⚡ Expertise in Cloud-Systemarchitekturen, Java-basierten Microservices und dem Spring-Ökosystem mit Fokus auf modulare Architekturen"
+    },
+    "education": {
+        "masterDesc": "Master of Science in Informatik",
+        "bachelorDesc": "Bachelor of Science in Informatik"
+    },
+    "techStack": {
+        "cloudArchitecture": "Cloud-Architektur (AWS)",
+        "iac": "Infrastructure as Code (Terraform)",
+        "devops": "DevOps & Automatisierung",
+        "javaSpring": "Java / Spring"
+    },
+    "workExperience": {
+        "capgemini": {
+            "role": "Senior Delivery Architect",
+            "desc": "Spezialisiert auf die Spezifikation und Implementierung von cloud-nativen Lösungen für Software-Migrationen und Unternehmenssysteme in AWS. Umfassende Beratungs- und Advisory-Dienstleistungen.",
+            "bullets": {
+                "header": "Wichtige Kundenprojekte:",
+                "mercedes": "• Mercedes-Benz Group AG (2025): AWS Cloud-Architektur für ADAS-Plattform Cloud-Infrastruktur-Modernisierung, Verarbeitung massiver Mengen an Sensor- und Fahrdaten für autonomes Fahren (Level 1-3)",
+                "aws": "• Amazon AWS (2025): AWS Cloud-Architektur & AWS Well-Architected Tool",
+                "modernization": "Cloud-Infrastruktur-Modernisierung & Architektur-Beratung",
+                "iac": "Infrastructure-as-Code (IaC) Entwicklung",
+                "security": "Sicherheits- & Compliance-Beratung",
+                "migration": "AWS zu Google Cloud Migration",
+                "coordination": "Team-übergreifende Koordination & Service-orientierte Cloud-Enablement",
+                "devops": "DevOps & CI/CD Optimierung"
+            }
+        },
+        "kreinn": {
+            "role": "Geschäftsführer",
+            "desc": "Aufbau eines IT-Startups für die Entwicklung verschiedener Service-, Entwicklungs- und Produktangebote.",
+            "bullet1": "Geschäftsführung",
+            "bullet2": "Technische Verwaltung",
+            "bullet3": "Aufbau von IT & Infrastruktur",
+            "bullet4": "Produktentwicklung"
+        },
+        "appsAssociates": {
+            "role": "Senior Consultant",
+            "desc": "Professionelle Beratung in AWS und Infrastructure & Managed Services (IMS), Unterstützung großer Cloud-Migrations- und Modernisierungsprojekte.",
+            "bullets": {
+                "header": "Wichtige Kundenprojekte:",
+                "ifs": "• IFS Cloud Landscape (2022-2024): Design und Implementierung einer AWS-basierten Cloud-Infrastruktur für das ERP-System IFS mit Terraform-Automatisierung",
+                "university": "• Universität in London (2023): Leitung des DevOps-Teams für Oracle EBS Migration zu AWS, Entwicklung von Migrationsplänen und Cloud-Infrastruktur-Designs",
+                "football": "• Führender Fußballverband in Deutschland (2023): Strategische AWS- und Terraform-Beratung",
+                "carRental": "• Globales Autovermietungsunternehmen (2022-2023): DevOps-Leitung für Modernisierung und Cloud-Migration kritischer Anwendungen und fast 100 Datenbanken",
+                "energy": "• Energiebörse in Stuttgart (2024): Design und Implementierung der Cloud-Infrastruktur für Software-Migration, Leitung des Infrastruktur-Teams",
+                "payment": "• Globaler Zahlungsdienstleister (2023-2024): Management der Oracle Enterprise Migration zu AWS, Architektur- und Sicherheitsberatung",
+                "consulting": "AWS-Beratung & Cloud-Architektur",
+                "ims": "Infrastructure & Managed Services",
+                "terraform": "Terraform-Automatisierung & DevOps-Leadership",
+                "training": "Schulung & Wissenstransfer"
+            }
+        },
+        "adesso": {
+            "role": "Software Developer Open Source Technology",
+            "desc": "Unterstützung des Ausbaus des Open-Source-Engagements von Adesso SE und Beiträge zu verschiedenen Kundenprojekten.",
+            "bullet1": "Spezialisierung auf Spring-Ökosystem, Docker, nebenläufige Programmierung",
+            "bullet2": "Aktiv in Open-Source-Projekten und Hackathons",
+            "bullet3": "Gründer von DO!Hack in Dortmund"
+        },
+        "fhdo": {
+            "role": "Studentische Hilfskraft",
+            "desc": "Forschung und Entwicklung in der SEELab-Forschungsgruppe.",
+            "bullet1": "Smart-City-Lösungen",
+            "bullet2": "Digitale Community-Netzwerkplattformen",
+            "bullet3": "Quartiersnetz-Projekt"
+        }
+    },
+    "certifications": {
+        "title": "Zertifizierungen"
+    },
+    "projects": {
+        "title": "Projekte",
+        "bigProjects": {
+            "title": "Große Projekte",
+            "subtitle": "Organisationen, die ich mitaufgebaut oder zu denen ich beigetragen habe",
+            "kreinn": {
+                "name": "KreInn GmbH",
+                "desc": "Mein eigenes IT-Startup für Service-, Entwicklungs- und Beratungsdienstleistungen",
+                "link": "Webseite besuchen"
+            },
+            "trackinn": {
+                "name": "TrackInn",
+                "desc": "Moderne Zeiterfassung für effizientes Projektmanagement",
+                "link": "Webseite besuchen"
+            },
+            "dohack": {
+                "name": "DO!Hack",
+                "desc": "Unsere erfolgreiche Hackathon-Organisation seit 2015",
+                "linkYoutube": "YouTube besuchen"
+            },
+            "deprecated": {
+                "name": "Already Deprecated Stream",
+                "desc": "Ein Tech-Stream mit einigen herausragenden Kollegen",
+                "link": "Webseite besuchen"
+            }
+        },
+        "openSource": {
+            "title": "Open Source Beiträge",
+            "subtitle": "Aktive Beiträge zu verschiedenen Open-Source-Projekten. Weitere Projekte und Aktivitäten auf GitHub.",
+            "moreProjects": "Weitere Projekte"
+        }
+    },
+    "podcast": {
+        "title": "Podcast 🎙️",
+        "subtitle": "Schau dir unseren Tech-Podcast an! :)"
+    },
+    "contact": {
+        "title": "Kontaktiere mich ☎️",
+        "subtitle": "Wenn du ein Projekt besprechen oder dich über Technologien austauschen möchtest, kontaktiere mich gerne!"
+    },
+    "footer": {
+        "madeWith": "Erstellt mit",
+        "by": "von"
+    },
+    "navigation": {
+        "skills": "Fähigkeiten",
+        "education": "Ausbildung",
+        "experience": "Erfahrung",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "sections": {
+        "workExperience": "Berufserfahrung",
+        "education": "Ausbildung",
+        "certifications": "Zertifizierungen",
+        "projects": "Projekte"
+    },
+    "buttons": {
+        "seeResume": "Lebenslauf ansehen",
+        "sayHello": "Hallo sagen",
+        "moreProjects": "Weitere Projekte",
+        "visitWebsite": "Webseite besuchen",
+        "visitYoutube": "YouTube besuchen"
+    }
+}

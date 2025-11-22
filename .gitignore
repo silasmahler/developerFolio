@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 #user generated content
-public/profile.json
+
 
 .idea/

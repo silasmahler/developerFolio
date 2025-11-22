@@ -1,36 +1,27 @@
-@font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.otf") format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-UltraLight.otf") format("woff");
-  font-display: swap;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-html,
-body {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* Media Query */
-@media (max-width: 1380px) {
-  html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
   body {
-    font-size: 16px;
-    line-height: normal;
+    @apply bg-dark text-light font-sans;
   }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit font-bold;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6C63FF;
 }
