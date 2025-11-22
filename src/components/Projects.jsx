@@ -43,7 +43,7 @@ function Projects() {
             {/* Big Projects */}
             {bigProjects.display && (
                 <div className="mb-20">
-                    <h2 className="text-2xl font-bold text-center mb-2">{t('projects.bigProjects.title')}</h2>
+                    <h2 className="text-2xl font-bold text-center mb-2 text-black dark:text-white">{t('projects.bigProjects.title')}</h2>
                     <p className="text-center text-black dark:text-gray-300 mb-10">{t('projects.bigProjects.subtitle')}</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -85,7 +85,7 @@ function Projects() {
             {/* GitHub Projects */}
             {openSource.display && repoData.length > 0 && (
                 <div>
-                    <h2 className="text-2xl font-bold text-center mb-2">{t('projects.openSource.title')}</h2>
+                    <h2 className="text-2xl font-bold text-center mb-2 text-black dark:text-white">{t('projects.openSource.title')}</h2>
                     {openSource.subtitle && (
                         <p className="text-center text-black dark:text-gray-300 mb-10">{t('projects.openSource.subtitle')}</p>
                     )}

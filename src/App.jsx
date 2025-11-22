@@ -13,6 +13,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import BackgroundDecorations from './components/BackgroundDecorations';
 
 function App() {
     // Initialize dark mode from localStorage, default to true if not set
@@ -34,6 +35,7 @@ function App() {
 
     return (
         <div className="min-h-screen">
+            <BackgroundDecorations />
             <Header isDark={isDark} setIsDark={setIsDark} />
             <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-20">
                 <Greeting />

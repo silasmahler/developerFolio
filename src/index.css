@@ -2,26 +2,112 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Premium gradient background with animation */
+/* Professional geometric background with animated shapes */
 @layer base {
   body {
     @apply font-sans;
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f3 50%, #c3cfe2 100%);
-    background-size: 200% 200%;
-    animation: gradientShift 15s ease infinite;
+    position: relative;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f4ff 50%, #e6edff 100%);
   }
 
   .dark body {
     @apply bg-dark;
-    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
-    background-size: 200% 200%;
-    animation: gradientShift 20s ease infinite;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
   }
 
-  @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  /* Geometric shapes layer 1 - Large circles */
+  body::before {
+    content: '';
+    position: fixed;
+    top: -10%;
+    left: -5%;
+    width: 120%;
+    height: 120%;
+    pointer-events: none;
+    z-index: -1;
+    background-image: 
+      radial-gradient(circle at 15% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 25%),
+      radial-gradient(circle at 85% 15%, rgba(236, 72, 153, 0.08) 0%, transparent 30%),
+      radial-gradient(circle at 70% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 35%),
+      radial-gradient(circle at 25% 75%, rgba(168, 85, 247, 0.08) 0%, transparent 28%);
+    animation: floatShapes 25s ease-in-out infinite;
+  }
+
+  .dark body::before {
+    background-image: 
+      radial-gradient(circle at 15% 20%, rgba(99, 102, 241, 0.12) 0%, transparent 25%),
+      radial-gradient(circle at 85% 15%, rgba(236, 72, 153, 0.12) 0%, transparent 30%),
+      radial-gradient(circle at 70% 80%, rgba(59, 130, 246, 0.12) 0%, transparent 35%),
+      radial-gradient(circle at 25% 75%, rgba(168, 85, 247, 0.12) 0%, transparent 28%);
+  }
+
+  /* Geometric shapes layer 2 - Diagonal lines & gradients */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    background-image: 
+      linear-gradient(135deg, transparent 0%, rgba(99, 102, 241, 0.03) 25%, transparent 50%),
+      linear-gradient(225deg, transparent 0%, rgba(236, 72, 153, 0.03) 25%, transparent 50%),
+      linear-gradient(45deg, rgba(59, 130, 246, 0.02) 0%, transparent 30%),
+      linear-gradient(-45deg, rgba(168, 85, 247, 0.02) 0%, transparent 30%);
+    background-size: 200% 200%, 200% 200%, 150% 150%, 150% 150%;
+    background-position: 0% 0%, 100% 100%, 50% 50%, 50% 50%;
+    animation: gradientFlow 20s ease infinite;
+  }
+
+  .dark body::after {
+    background-image: 
+      linear-gradient(135deg, transparent 0%, rgba(99, 102, 241, 0.05) 25%, transparent 50%),
+      linear-gradient(225deg, transparent 0%, rgba(236, 72, 153, 0.05) 25%, transparent 50%),
+      linear-gradient(45deg, rgba(59, 130, 246, 0.04) 0%, transparent 30%),
+      linear-gradient(-45deg, rgba(168, 85, 247, 0.04) 0%, transparent 30%);
+  }
+
+  /* Ensure content is above background layers */
+  body > * {
+    position: relative;
+    z-index: 0;
+  }
+
+  @keyframes floatShapes {
+    0%, 100% { 
+      transform: translate(0, 0) scale(1);
+      opacity: 1;
+    }
+    25% { 
+      transform: translate(2%, -3%) scale(1.05);
+      opacity: 0.9;
+    }
+    50% { 
+      transform: translate(-2%, 3%) scale(0.98);
+      opacity: 1;
+    }
+    75% { 
+      transform: translate(3%, 2%) scale(1.02);
+      opacity: 0.95;
+    }
+  }
+
+  @keyframes gradientFlow {
+    0%, 100% { 
+      background-position: 0% 0%, 100% 100%, 50% 50%, 50% 50%;
+    }
+    25% { 
+      background-position: 100% 0%, 0% 100%, 30% 70%, 70% 30%;
+    }
+    50% { 
+      background-position: 100% 100%, 0% 0%, 70% 30%, 30% 70%;
+    }
+    75% { 
+      background-position: 0% 100%, 100% 0%, 50% 50%, 50% 50%;
+    }
   }
 
   h1,
